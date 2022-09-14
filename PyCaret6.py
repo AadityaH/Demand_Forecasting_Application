@@ -34,7 +34,7 @@ def callback():
     st.session_state.button_clicked=True
 
 
-@st.cache(allow_output_mutation=True)
+@st.cache(suppress_st_warning=True)
 def model():
     s=setup(data,fold=3,fh=len(test))  ## Pycaret function
     best=compare_models()
