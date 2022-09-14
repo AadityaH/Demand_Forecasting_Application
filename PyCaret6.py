@@ -74,12 +74,12 @@ else:
     data_file=st.file_uploader("Want to try this out with your own data ? - upload a csv file here",type=['csv']) 
     st.caption("CSV file should have first column named as Date. Target figures should be in next consecutive column")
     st.caption("Data format for Date Column can be either mm/dd/yyyy or dd/mm/yyy")
-if data_file is not None:
-    data_file=pd.read_csv(data_file)
-    data_file['Date']=pd.to_datetime(data_file['Date'])
-    data_file.set_index('Date',inplace=True)
-    train_data=int(len(data_file)*0.8)
-    train_data2=data_file.iloc[:train_data]   ## First 80% values as training data
-    test_data2=data_file.iloc[train_data:]    ## Last 20% values as testing data
-    predict_model(model(),fh=fh)    ## fh figure in predict function tells how many time horizons you want to see ahead
-    plot_model(model(),plot='forecast',data_kwargs={'fh':fh})
+    if data_file is not None:
+        data_file=pd.read_csv(data_file)
+        data_file['Date']=pd.to_datetime(data_file['Date'])
+        data_file.set_index('Date',inplace=True)
+        train_data=int(len(data_file)*0.8)
+        train_data2=data_file.iloc[:train_data]   ## First 80% values as training data
+        test_data2=data_file.iloc[train_data:]    ## Last 20% values as testing data
+        predict_model(model(),fh=fh)    ## fh figure in predict function tells how many time horizons you want to see ahead
+        plot_model(model(),plot='forecast',data_kwargs={'fh':fh})
