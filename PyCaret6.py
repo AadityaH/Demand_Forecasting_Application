@@ -17,7 +17,7 @@ import json
 import requests
 import numpy as np
 from  PIL import Image
-@st.experimental_memo
+@st.experimental_singleton
 def load_lottieurl(url:str):
     r = requests.get(url)
     if r.status_code!=200:
