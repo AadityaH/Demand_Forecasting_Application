@@ -32,8 +32,8 @@ if "button_clicked" not in st.session_state:
 def callback():
     #button was clicked
     st.session_state.button_clicked=True
-
-@st.experimental_memo
+    
+@st.experimental_singleton
 def model():
     s=setup(data,fold=3,fh=len(test))  ## Pycaret function
     best=compare_models()
