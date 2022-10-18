@@ -18,7 +18,8 @@ import requests
 import numpy as np
 from  PIL import Image
 
-@st.cache
+
+@st.experimental_singleton
 def load_lottieurl(url:str):
     r = requests.get(url)
     if r.status_code!=200:
@@ -30,13 +31,13 @@ def load_lottieurl(url:str):
 if "button_clicked" not in st.session_state:
     st.session_state.button_clicked=False
 
-@st.cache    
+@st.experimental_singleton    
 def callback():
     #button was clicked
     st.session_state.button_clicked=True
     
 
-@st.cache
+@st.experimental_singleton
 def model():
     s=setup(data,fold=3,fh=len(test))  ## Pycaret function
     best=compare_models()
