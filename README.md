@@ -2,7 +2,7 @@
 
 Shortages – Is one such word which every stakeholder in the supply chain industry comes across – be it a Buyer / Logistics Coordinator / Production Supervisor.
 
-Shortages are inevitable to avoid, however those can certainly be reduced with the help of machine learning based forecasting models. 
+Shortages are inevitable , however those can certainly be reduced with the help of machine learning based forecasting models. 
 
 Forecasting is an art of being less wrong , In this next use case of #SCMunfolds , I would like to showcase a prototype model for Demand Forecasting using Machine Learning.
 
