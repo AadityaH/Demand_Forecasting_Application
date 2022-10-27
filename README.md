@@ -34,6 +34,9 @@ Plotting the values predicted by model on 'Test Data' . Predicted values are sho
 
 ![Model_Performance_Plot](https://user-images.githubusercontent.com/66874304/198237455-f8bcaddc-ab80-4154-b7fd-7c5c9012b3fa.jpg)
 
+Diagnostics : This is how ARIMA model is performing
+
+![Diagnostics](https://user-images.githubusercontent.com/66874304/198245029-13a88325-90c8-45c4-b44d-63ca43b545ca.jpg)
 
 Predictions : As ARIMA has best accuracy , using this model to predict the future values . Future values are shown in Blue Color
 
