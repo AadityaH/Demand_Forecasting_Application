@@ -1,5 +1,7 @@
 # Demand_Forecasting_Application : Web based prototype application to forecast the demands
 
+Important : Due to cache usage limitations on free hosting platoforms , this application is hosted locally & not on web servers . You can refer the PyCaret6.py file for accessing the code.
+
 Shortages – Is one such word which every stakeholder in the supply chain industry comes across – be it a Buyer / Logistics Coordinator / Production Supervisor.
 
 Shortages are inevitable , however those can certainly be reduced with the help of machine learning based forecasting models. 
