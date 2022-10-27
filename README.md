@@ -16,6 +16,11 @@ Input Screen : Select the slider to decide how many days of data you want to pre
 
 ![HomeScreen](https://user-images.githubusercontent.com/66874304/198225932-bb16442d-0ca6-4a3c-8136-15560c8c2918.jpg)
 
-# of Days I have selected here are 30 , Click on 'Give a try with our example dataset' , model will start predicting the most suitable model.
+No. of Days I have selected here are 30 , Click on 'Give a try with our example dataset' , model will start predicting the most suitable model.
+
+![Selection Screen](https://user-images.githubusercontent.com/66874304/198227455-215630b2-0b9d-4b73-a496-505e3736f331.jpg)
+
+Output Screen : ARIMA model is the most suitable model for the example dataset & the predicted values are highlighted in Blue Color
+
 
 
