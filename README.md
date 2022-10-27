@@ -2,11 +2,11 @@
 
 Shortages – Is one such word which every stakeholder in the supply chain industry comes across – be it a Buyer / Logistics Coordinator / Production Supervisor.
 
-Forecasting is an art of being less wrong - better forecasting with machine learning models can certainly help in reducing the shortages to a great extent. 
+Shortages are inevitable to avoid, however those can certainly be reduced with the help of machine learning based forecasting models. 
 
-In this next use case of #SCMunfolds , I would like to showcase a prototype model for Demand Forecasting using Machine Learning.
+Forecasting is an art of being less wrong , In this next use case of #SCMunfolds , I would like to showcase a prototype model for Demand Forecasting using Machine Learning.
 
-This model compares various regression / time series techniques to forecast the demands based on the historical data patterns predicting the best model to be used with highest level of accuracy among all.
+This model compares various regression / time series techniques to predict the demands based on the historical data patterns predicting the best model to be used with highest level of accuracy amongst all.
 
 Being a prototype , a very limited data is being displayed in this model , we can however explore it to the level desired.
 
