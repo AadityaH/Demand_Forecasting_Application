@@ -10,6 +10,8 @@ This model compares various regression / time series techniques to forecast the 
 
 Being a prototype , a very limited data is being displayed in this model , we can however explore it to the level desired.
 
+You can upload a simple CSV file having date in first column & respective value in next consecutive column.
+
 Library Used : PyCaret , PyCaret is a powerful library which has applications across TimeSeries , Classification & Regression
 
 Input Screen : Select the slider to decide how many days of data you want to predict.
@@ -20,12 +22,13 @@ No. of Days I have selected here are 30 , Click on 'Give a try with our example 
 
 ![Selection Screen](https://user-images.githubusercontent.com/66874304/198227455-215630b2-0b9d-4b73-a496-505e3736f331.jpg)
 
-Comparison of performance of all the models :  Models having lowest error values are highlighted
+Output matrix shows the comparison of performance of all the models :  Models having lowest error values are highlighted
 
 ![Model_Performance](https://user-images.githubusercontent.com/66874304/198236838-54105d19-a1b2-428c-bb61-916d22967215.jpg)
 
 
-Output Screen : ARIMA model is the most suitable model for the example dataset . Plotting the values predicted by model on 'Test Data' . Predicted values are shown in Orange color
+Output Screen : Based on the output of compariosn matrix : ARIMA model is the most suitable model for the example dataset . 
+Plotting the values predicted by model on 'Test Data' . Predicted values are shown in Orange color
 
 ![Model_Performance_Plot](https://user-images.githubusercontent.com/66874304/198237455-f8bcaddc-ab80-4154-b7fd-7c5c9012b3fa.jpg)
 
