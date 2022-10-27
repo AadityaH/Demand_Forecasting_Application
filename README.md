@@ -20,7 +20,12 @@ No. of Days I have selected here are 30 , Click on 'Give a try with our example 
 
 ![Selection Screen](https://user-images.githubusercontent.com/66874304/198227455-215630b2-0b9d-4b73-a496-505e3736f331.jpg)
 
+Comparison of performance of all the models :  Choosing the one having highest accuracy 
+
+
+
 Output Screen : ARIMA model is the most suitable model for the example dataset & the predicted values are highlighted in Blue Color
 
+![Output](https://user-images.githubusercontent.com/66874304/198228395-b7bb80da-2bf7-45fe-ab64-542295c3553f.jpg)
 
 
