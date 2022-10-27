@@ -20,11 +20,15 @@ No. of Days I have selected here are 30 , Click on 'Give a try with our example 
 
 ![Selection Screen](https://user-images.githubusercontent.com/66874304/198227455-215630b2-0b9d-4b73-a496-505e3736f331.jpg)
 
-Comparison of performance of all the models :  Choosing the one having highest accuracy 
+Comparison of performance of all the models :  Models having lowest error values are highlighted
+
+![Model_Performance](https://user-images.githubusercontent.com/66874304/198236838-54105d19-a1b2-428c-bb61-916d22967215.jpg)
 
 
+Output Screen : ARIMA model is the most suitable model for the example dataset . Plotting the values predicted by model on 'Test Data' . Predicted values are shown in Orange
 
-Output Screen : ARIMA model is the most suitable model for the example dataset & the predicted values are highlighted in Blue Color
+
+Output Screen : As ARIMA has best accuracy , using this model to predict the future values . Future values are shown in Blue Color
 
 ![Output](https://user-images.githubusercontent.com/66874304/198228395-b7bb80da-2bf7-45fe-ab64-542295c3553f.jpg)
 
